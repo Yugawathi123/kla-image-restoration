@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Training checkpoints
+checkpoints/
+checkpoints_v*/
+last.pt
+train_log.jsonl
+*.pth
+
+# Local temporary/helper files
+current_files.txt
+list_structure.py
+test_data_audit.py
+*_local_backup.*
+
+# Local generated folders
+restored_test_output_v4/
+restored_test_v4_png/
+
+# Logs
+*.log
