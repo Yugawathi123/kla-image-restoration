@@ -1,0 +1,13 @@
+{
+  "num_val_samples": 320,
+  "bicubic_baseline_avg_psnr": 22.92956450248165,
+  "bicubic_baseline_avg_ssim": 0.5508334811497412,
+  "model_avg_psnr": 28.906775081378818,
+  "model_avg_ssim": 0.7870155528386664,
+  "model_tta_avg_psnr": 28.940404491753846,
+  "model_tta_avg_ssim": 0.7879436978572883,
+  "psnr_improvement_over_bicubic_db": 5.977210578897168,
+  "ssim_improvement_over_bicubic": 0.23618207168892524,
+  "psnr_gain_from_tta_db": 0.033629410375027646,
+  "ssim_gain_from_tta": 0.0009281450186219287
+}
