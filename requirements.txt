@@ -1,0 +1,18 @@
+# Core dependencies for the KLA image restoration pipeline.
+#
+# IMPORTANT: The submission spec requires the COMPLETE `pip freeze` output
+# from your actual training environment (for full reproducibility). This
+# file lists the minimal set of direct dependencies to get you running.
+# Before final submission, replace this file with:
+#
+#     pip freeze > requirements.txt
+#
+# run inside the exact virtualenv/conda env you trained in.
+
+torch>=2.1.0
+numpy>=1.24.0
+scikit-image>=0.21.0   # used for SSIM in evaluate.py metrics
+Pillow>=10.0.0          # only needed if using --save_png in evaluate.py
+
+# Optional, only if you want LPIPS reported in your results slide:
+# lpips>=0.1.4
