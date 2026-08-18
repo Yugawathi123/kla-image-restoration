@@ -1,0 +1,9 @@
+{
+  "offset": 0.004411028698086739,
+  "scale": 0.9849857818335295,
+  "gt_true_min": 0.0,
+  "gt_true_max": 1.0,
+  "low_percentile": 0.5,
+  "high_percentile": 99.5,
+  "note": "normalized = (raw - offset) / scale. NoisyLR is normalized with the SAME offset/scale (not clipped), so overshoot from speckle noise remains visible to the model as values >1 or <0."
+}
