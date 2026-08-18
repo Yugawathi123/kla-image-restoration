@@ -1,0 +1,7 @@
+{
+  "num_images": 400,
+  "tta": false,
+  "avg_inference_time_sec": 0.017315354347229004,
+  "total_inference_time_sec": 6.926141738891602,
+  "device": "cuda"
+}
